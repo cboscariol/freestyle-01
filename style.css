@@ -1,0 +1,215 @@
+.fundo {
+	background-color: #000000 }
+
+.titulo{
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Noto Serif', serif;
+	line-height: 20px;
+	padding-top: 40px; 
+	}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.dog01 {
+	opacity: 0.5;
+    padding-bottom: 20px;
+
+	}
+
+.dog01 img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 8px;
+}	
+
+.p1-box{
+	display: flex;
+}
+
+.p1 {
+	flex:1;
+	width: 22.5%;
+	height: 200px;
+	color:#ffffff;
+}
+
+.p1-box .p1:nth-child(2) {
+	margin: 0 20px;
+}
+
+
+.segundo-bloco {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 0 15px 0;
+}
+
+.dog02 {
+	width: 550px;
+	background-color: #161719;
+	padding: 15px;
+}
+
+.dog02 img {
+	width: 100%;
+}
+
+
+.dog02 h3 {
+	color: #ffffff;
+}
+
+.dog02 p {
+	color: #ffffff;
+
+}
+
+.dog02 a {
+	display: inline-block;
+	text-decoration: none;
+    background-color: #101211;
+    color: white;
+    padding: 8px 24px;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 10%;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 24px;
+}
+
+
+.lateral {
+	display: flex;
+}
+
+.lateral-esquerda img {
+	width: 400px;
+	height: 605px;
+	padding: 15px 0 15px 0;
+}
+
+.lateral-direita {
+	display: flex;
+	flex-direction: column;
+}
+
+.lateral-direita img {
+	width: 180px;
+	height: 180px;
+}
+
+figure {
+	display: flex;
+	height: 180px;
+	margin-right: 0;
+}
+
+figcaption {
+	flex:1;
+	color: #ffffff;
+	background-color: #101211;
+	padding: 30px 0px 30px 10px;
+}
+
+figcaption h4 {
+	font-size: 22px;
+}
+
+.contato {
+	display: flex;
+}
+
+.formulario {
+	color: #ffffff;
+	width: 600px;
+	padding-right: 20px;
+
+}
+
+.contact {
+	color: #ffffff;
+	background-color: #101211;
+	padding: 15px 10px;
+	font-size: 20px;
+	text-align: right;
+	width: 600px;
+	padding-left: 35px;
+}
+
+.contact h5 {
+	color: #ffffff;
+	font-size: 28px;
+	text-align: right;
+}
+
+footer {
+	color: #ffffff;
+	background-color: #101211;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	padding-top: 60px;
+	margin-top: 12px;
+}
+
+.form {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+}
+
+.form .input {
+	flex: 1;
+}
+
+.form .input:first-child {
+	margin-right: 10px;
+}
+.caixa-contato {
+	flex: 100%;
+	height: 300px;
+} 
+
+.input, .caixa-contato {
+	background-color: transparent;
+	margin-bottom: 15px;
+	padding: 10px;
+	border: 1px solid #d3d3d3;
+
+}
+
+
+.button {
+	text-decoration: none;
+    background-color: #101211;
+    border: 1px solid #d3d3d3;
+    color: white;
+    padding: 8px 24px;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 10%;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 24px;
+    margin-left: auto;
+}
+
+@media only screen and (max-width: 600px) {
+	.lateral {
+		flex-direction: column;
+	}
+	.lateral-direita figure {
+		margin-left: 0;
+	}
+	.contato {
+		flex-direction: column-reverse;
+	}
+
+
+}
